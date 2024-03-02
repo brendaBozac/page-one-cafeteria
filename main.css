@@ -1,0 +1,1075 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* **********----------------- GOOGLE FONTS --------------------------
+
+*   font-family: "Bebas Neue", sans-serif;
+*   font-family: "Oswald", sans-serif;
+*/
+
+
+/* ************  LINKS DEL NAVEGADOR, SIZE Y FUENTE -------------es gral para todo el sitio web */
+.font-nav {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.8em;
+
+}
+
+
+/* --------------------      PAGINA   INDEX . HTML   ------------------------------ */
+/* --------------------      PAGINA   INDEX . HTML   ------------------------------ */
+/* --------------------      PAGINA   INDEX . HTML   ------------------------------ */
+
+/* ---------------------   HEADER    INDEX   ------------------------ */
+
+header {
+    width: 100vmax;
+    height: 45vmax;
+    background-image: url(img/cafeUno.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header h1 {
+    font-size: 10vmax;
+    color:#0c0603;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 5vmax;
+}
+
+
+
+/* ********** ------------        SECTION LUCES   ------   INDEX  ------ */
+
+
+.container-luces {
+    width: 100%;   
+}
+
+.div-img {
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+.imgluces {
+    width: 80%;
+    border-radius: 15%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.658);
+}
+
+.luces-bloque-texto {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    text-align: justify;
+}
+
+.lucesh2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: start;
+}
+
+.lucesp {
+    font-size: 1.2rem;
+    font-family: monospace;
+    max-width: 75%;
+}
+
+
+/* section Cards */
+
+.cards-container {
+    margin: 3rem 0;
+    padding: 2rem 4rem;
+    background-image: url(img/planta.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.card {
+    border: none;
+    box-shadow: 2px 2px 8px black;
+
+}
+
+.h2-cards {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5em;
+}
+
+.h2-js {
+    font-family: "Oswald", sans-serif; 
+
+
+}
+
+
+/* ************************* ------------         MARKETPLACE SECTION     INDEX   -----------------    */
+
+/* fondo  - etiqueta section */
+.fondomarket {
+    background: linear-gradient(to right, #10041a, #471b02, #10041a);
+    padding-bottom: 4rem;
+}
+
+/* row   ---------    titulo market */
+.marketh2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+
+}
+
+/* -----------     bloque servicios */
+.rowmarket {
+    width: 85%;
+    margin: 3rem auto;
+}
+
+.spantitulomarket {
+    color: rgb(255, 166, 2);
+}
+
+.bloqueservicio {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.bloqueservicio i {
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: rgb(255, 166, 2);
+}
+
+.ayp-servicio {
+    margin-left: 1rem;
+}
+
+.ayp-servicio a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    padding-bottom: 1rem;
+    color: rgb(255, 166, 2);
+}
+
+.ayp-servicio a:hover {
+    color: white;
+}
+
+.parrafoservicio {
+    max-width: 90%;
+    color: white;
+} 
+
+/* -----------------     botones - row final - marketplace */
+
+.botones-shop {
+    margin-bottom: 10rem;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.botones-shop a {
+    text-decoration: none;
+    color: rgb(255, 166, 2);
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 0.8rem 2.5rem;
+    background-color: rgba(0, 255, 255, 0);
+    outline: 2px solid rgb(255, 166, 2);
+    border-radius: 3rem;
+}
+
+.botones-shop a:hover {
+    outline: none;
+    background-color: rgb(255, 166, 2);
+    color: #10041a;
+}
+
+/* --------------------- */
+
+/* ----------section Galeria ------------ */
+
+.galeriacontainer {
+    margin: 4rem auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.rowgal {
+    height: 30vmax;
+    width: 100%;
+
+}
+
+.galeria1 {
+    background-image: url(img/sepia1.jpg);
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(0.7);
+}
+
+.galeria1:hover {
+    filter: brightness(1);
+}
+
+.galeria2 {
+    background-image: url(img/sepia2.jpg);
+    background-size: cover;
+    background-position: right center;
+    filter: brightness(0.7);
+}
+
+
+.galeria2:hover {
+    filter: brightness(1);
+}
+
+.galeria3 {
+    background-image: url(img/cartel5.jpg);
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(0.7);
+}
+
+
+.galeria3:hover {
+    filter: brightness(1);
+}
+
+/* bloques de textos galeria */
+
+.galtext1  {
+    background-color: #1b181f;
+}
+.galtext2 {
+    background-color: #0e101b;
+}
+.galtext3 {
+    background-color: #1b181f; 
+}
+
+/* bloques de texto de la galeria h3 + p */
+/* 
+.bloquetextgaleria {
+
+} */
+
+.bloquetextgaleria h3 {
+    font-family: "Bebas Neue", sans-serif;
+    /* font-size: 3rem; */
+    padding-bottom: 2rem;
+}
+
+.bloquetextgaleria p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 1.5rem; */
+    padding-top: 3rem;
+}
+
+.hr-galeria {
+    width: 15rem;
+    margin: auto;
+}
+
+
+/* efecto flotante */
+
+.img-fondo {
+    background-image: url(img/cartel3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 20em;
+   
+}
+
+.flotan-text1 {
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.flotan-text1 h2 {
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Bebas Neue", sans-serif;
+    
+    padding: 0.2rem 3rem;
+    background: rgba(0, 0, 0, 0.479);
+    border-radius: 1rem;
+}
+
+
+.flotan-text1 p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    background: rgba(0, 0, 0, 0.479);
+    border-radius: 1rem;
+}
+
+/*      FOOTER   ------------------ */
+/*      FOOTER   ------------------ */
+/*      FOOTER   ------------------ */
+
+footer {
+    background-color: #180817;
+}
+
+.logo-footer {
+    width: 7em;
+    padding: 0 1rem;
+}
+
+.titulo-footer {
+    color: rgb(204, 162, 103);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5em;
+}
+
+.h3-footer {
+    color: rgb(184, 152, 109);
+    font-family: "Oswald", sans-serif;
+}
+
+.ancor-mail {
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+}
+
+.p-footer {
+    color: rgb(184, 152, 109);
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3em;
+}
+
+.redes-sociales{
+    margin-top: 3rem;
+}
+
+.icon-redes {
+    font-size: 1.2em;
+    color: rgb(184, 152, 109);
+    padding-right: 1.3em;
+}
+
+
+/* --------------------      PAGINA   CONOCENOS . HTML   ------------------------------ */
+/* --------------------      PAGINA   CONOCENOS . HTML   ------------------------------ */
+/* --------------------      PAGINA   CONOCENOS . HTML   ------------------------------ */
+
+
+/*  section  CONOCENOS     ----------  section - bloque CONOCENOS .HTML */
+/* -section CONOCENOS */
+
+.about-container {
+    background-image: url(img/conocenos.jpg);
+    background-position: center 10% center;
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.about-col {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: start;
+    background-color: #0c0603ce;
+    padding: 3rem 1.5rem;
+    margin-left: 6%;
+    border-radius: 5%;
+    box-shadow: 3px 3px 10px rgb(214, 127, 121);
+}
+
+.about-h1 {
+    font-size: 4vmax;
+    color:#f7ead7;
+    font-family: "Bebas Neue", sans-serif;
+    /* margin-top: 10vmax; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.767);
+}
+
+
+.about-parrafo {
+    font-family: "Oswald", sans-serif;
+    color: #f7ead7;
+    font-size: 1.3vmax;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.767);
+}
+
+/* botones del section  CONOCENOS */
+
+
+.about-div-ancor {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    
+    
+}
+
+.about-ancor {
+    text-decoration: none;
+    color: rgb(255, 166, 2);
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 0.8rem 2.5rem;
+    background-color: rgba(0, 255, 255, 0);
+    outline: 2px solid rgb(255, 166, 2);
+    border-radius: 3rem;
+/*     display: flex;
+    flex-flow: row nowrap;
+    box-sizing: border-box;
+     */
+}
+
+ 
+.about-ancor:hover {
+    outline: none;
+    background-color: rgb(255, 166, 2);
+    color: #10041a;
+}
+
+
+
+/* --------------------      PAGINA   TIENDA . HTML   ------------------------------ */
+/* --------------------      PAGINA   TIENDA . HTML   ------------------------------ */
+/* --------------------      PAGINA   TIENDA . HTML   ------------------------------ */
+
+
+/*-------------------------- header TIENDA */
+
+.tienda-container {
+    background-color: #471b02;
+    display: flex;
+    flex-flow: column wrap;
+   /*  justify-content: space-evenly;
+    align-items: center; */
+    padding: 5%;
+    margin: 2% auto;
+}
+
+.tienda-header-container {
+    background-image: url(img/fondo-tienda.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    height: 90vh;
+}
+
+.tienda-titulo1 {
+    font-size: 11vmax;
+    color:#f7ead7;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.815);
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.tienda-titulo2 {
+    font-size: 4.5vmax;
+    color:#f7ead7;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.815);
+    margin-top: 0;
+} 
+
+
+/* section cards del html - tienda */
+
+.tienda-titulos-row h3 {
+    font-size: 5.5vmax;
+    color:#f7ead7;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.815);
+    margin-top: 0;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.tienda-row-cards {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 2%;
+    justify-content: center;
+
+}
+
+.tienda-card {
+    width: 16rem;
+}
+
+.tienda-card-body h5 {
+    font-family: "Oswald", sans-serif;
+    color: #1f1a14;
+    font-size: 1.5vmax;
+}
+
+
+
+
+
+
+
+/* --------------------      PAGINA   VARIEDADES . HTML   ------------------------------ */
+/* --------------------      PAGINA   VARIEDADES . HTML   ------------------------------ */
+/* --------------------      PAGINA   VARIEDADES . HTML   ------------------------------ */
+
+
+/*-------------------------- header VARIEDADES */
+.header-var {
+    width: 100vmax;
+    height: 35vmax;
+    background-image: url(img/cafe-leo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.h1-header-var {
+    font-size: 12vmax;
+    color:#ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 10vmax;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.767);
+}
+/* **************************** */
+
+/* **************************** */
+
+/*  section  BANNER    ----------  banner VARIEDADES.HTML */
+/* -section banner */
+
+.sectionbanner {
+    background-color: rgba(238, 136, 197, 0.288);
+    margin-bottom: 5vmin;
+}
+
+.h1banner {
+    color:black;
+    font-family: "Oswald", sans-serif;
+    font-weight:bold;
+    font-size: 4rem;
+    padding-top: 5vmin;
+}
+
+.h2banner {
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+.pbanner {
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+
+
+
+
+/* 
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+MEDIAS QUERIES
+*/
+
+
+
+/* pantalla xl    min-width: 1200px    desde aqui en adelante */
+
+/* pantalla lg    max-width: 1199px  como maximo hasta donde termina lg, en este valor */
+/* pantalla lg    max-width: 1199px  como maximo hasta donde termina lg, en este valor */
+
+@media screen and (max-width:1200px) {
+            
+    .imgluces {
+        width: 80%;
+        
+    }
+
+    .lucesh2 {
+        font-size: 150%;
+        font-weight: bold;
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    .lucesp {
+        font-size: 60%;
+        font-family: monospace;
+    }
+
+}
+
+
+
+/* pantalla md  max-width: 991px  como maximo hasta donde termina en este valor */
+/* pantalla md  max-width: 991px  como maximo hasta donde termina en este valor */
+
+
+@media screen and (max-width: 991px) {
+    .card-text {
+        display: none;
+    }
+
+    /* CONOCENOS.HTML */
+    .about-container {
+        height: 50vmax;
+    }
+
+    .about-col {
+        padding: 1.5rem 1rem;
+    }
+    
+    .about-ancor {
+        font-size: 1rem;
+        padding: 0.2rem 1rem;
+        margin-top: 1rem;
+    }
+        
+    .about-h1 {
+        font-size: 2.8vmax;
+    }
+
+    .about-parrafo {
+        font-size: 1.5vmax;
+    }
+
+    .about-span {
+        display: none;
+    }
+
+    /* pagina TIENDA */
+
+    
+    .tienda-header-container {
+        height: 70vh;
+    }
+
+    .tienda-card {
+        width: 16rem;
+    }
+        
+    .tienda-titulos-row h3 {
+        font-size: 5.5vmax;
+       
+    }
+    
+
+}
+
+/* pantalla sm max-width: 767px   como maximo hasta donde termina , en este valor */
+
+@media screen and (max-width: 767px) {
+    
+    .font-nav {
+        font-size: 1em;
+    }
+
+    
+    .imgluces {
+        width: 60%;
+        margin: auto;
+    }
+
+    .luces-bloque-texto {
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin: 1.5rem auto;
+    }
+
+    .lucesh2 {
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: "Bebas Neue", sans-serif;
+        text-align: center;
+    }
+
+    .lucesp {
+        font-size: 0.8rem;
+        font-family: monospace;
+        max-width: 75%;
+    }
+
+    /* flotante */
+        
+    .img-fondo {
+        height: 15em;
+    }
+    .flotan-text1 h2 {
+        font-size: 3rem;
+        padding: 0.1rem 1rem;
+    }
+
+    .flotan-text1 p {
+        font-size: 0.7rem;
+        padding: 0.1rem 1rem;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+
+/*  */
+    .botones-shop {
+        flex-flow: column wrap;
+    }
+
+    .botones-shop a {
+       
+        font-size: 1.5rem;
+        padding: 0.5rem 2rem;
+        margin-bottom: 1.5rem; 
+    }
+
+    .about-container {
+        height: 50vmax;
+    }
+
+    .about-col {
+        padding: 1.5rem 1rem;
+    }
+
+    .about-ancor {
+        font-size: 1rem;
+        padding: 0.2rem 1rem;
+        margin-top: 1rem;
+    }
+ 
+        
+    .about-h1 {
+        font-size: 3.2vmax;
+    }
+
+    .about-parrafo {
+        font-size: 1.8vmax;
+    }
+
+    .about-span {
+        display: none;
+    }
+
+    /* pagina TIENDA */
+
+    
+    .tienda-header-container {
+        height: 55vh;
+    }
+
+    
+    .tienda-card {
+        width: 15rem;
+    }
+    
+    .tienda-titulos-row h3 {
+        font-size: 5.5vmax;
+       
+    }
+    
+}
+
+
+
+/* pantalla extra sm max-width: 575px   como maximo hasta donde termina , en este valor */
+
+@media screen and (max-width: 575px) {
+  
+    header h1 {
+        font-size: 7vmax;
+    }
+
+    .imgluces {
+        display: none;
+    }
+        
+    .bloqueservicio {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    
+    .ayp-servicio {
+        text-align: center;   
+    }
+
+    .parrafoservicio {
+        max-width: 100%;
+    }
+
+    .botones-shop a {
+       
+        font-size: 1.5rem;
+        padding: 0.3rem 1.5rem;
+        margin-bottom: 1.5rem; 
+    }
+
+    /* flotante */
+
+    .img-fondo {
+        height: 12em;
+    }
+        
+    .flotan-text1 h2 {
+        font-size: 2.5rem;
+        padding: 0.1rem 1rem;
+    }
+
+    .flotan-text1 p {
+        display: none;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    /* footer queries */
+
+    .titulo-footer {
+        font-size: 2.5em;
+        display: flex;
+        align-self: end;
+    
+    }
+
+    .col-footer {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .h3-footer {
+        color: rgb(184, 152, 109);
+        font-family: "Oswald", sans-serif;
+    }
+    
+    
+    .ancor-mail {
+        font-size: 0.8em;
+    }
+    
+    .p-footer {
+        font-size: 0.7em;
+    }
+    
+    .icon-redes {
+        font-size: 0.6em;
+        padding-right: 1.3em;
+    }
+
+    .redes-sociales{
+        margin-top: 0.5rem;
+    }
+
+    .logo-footer {
+        width: 4.5em;
+        padding: 0 1rem;
+    }
+
+    .about-container {
+        height: 50vmax;
+    }
+
+    .about-ancor {
+        font-size: 0.7rem;
+        padding: 0.1rem 0.5rem;
+        margin-top: 0.2rem;
+    }
+ 
+    .about-col {
+        padding: 1rem 0.5rem;
+    }
+        
+    .about-h1 {
+        font-size: 2.5vmax;
+    }
+
+    .about-parrafo {
+        font-size: 1.4vmax;
+    }
+
+    .about-span {
+        display: none;
+    }
+ 
+    /* pagina TIENDA */
+
+    
+    .tienda-header-container {
+        height: 45vh;
+    }
+
+    
+    .tienda-card {
+        width: 14rem;
+    }
+    .tienda-titulos-row h3 {
+        font-size: 5vmax;
+    }
+    
+}
+
+/* pantalla extra sm max-width: 320px   como maximo hasta donde termina en este valor */
+
+@media screen and (max-width: 320px) {
+    
+    /* .font-nav {
+        font-size: 1em;
+    } */
+
+    header h1 {
+        font-size: 5vmax;
+    }
+            
+    .bloqueservicio {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .ayp-servicio {
+        text-align: center;  
+    }
+  
+    .parrafoservicio {
+        max-width: 100%;
+    }
+
+    .botones-shop a {
+       
+        font-size: 1.5rem;
+        padding: 0.3rem 1.5rem;
+        margin-bottom: 1.5rem; 
+    }
+     /* flotante */
+    
+    .img-fondo {
+        height: 8em;
+    } 
+    .flotan-text1 h2 {
+        display: none;
+    }
+    .flotan-text1 p {
+        display: none;
+    }
+
+    
+    .card-text {
+        display: none;
+    }
+
+    /* footer queries */
+
+    .titulo-footer {
+        font-size: 2.5em;
+    
+    }
+    
+    .ancor-mail {
+        font-size: 0.8em;
+    }
+    
+    .p-footer {
+        font-size: 0.7em;
+    }
+    
+    .icon-redes {
+        font-size: 0.6em;
+        padding-right: 1.3em;
+    }
+    
+    .redes-sociales{
+        margin-top: 0.5rem;
+    }
+
+    
+    .logo-footer {
+        width: 4.5em;
+        padding: 0 1rem;
+    }
+
+    .about-container {
+        height: 40vmax;
+    }
+
+    .about-ancor {
+        font-size: 0.7rem;
+        padding: 0.1rem 0.5rem;
+        margin-top: 0.2rem;
+    
+    }
+ 
+    .about-col {
+        padding: 1rem 0.5rem;
+    }    
+
+    .about-h1 {
+        font-size: 2.5vmax;
+    }
+
+    .about-parrafo {
+        font-size: 1.4vmax;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .about-span {
+        display: none;
+    }
+
+    /* pagina TIENDA */
+
+    
+    .tienda-header-container {
+        height: 40vh;
+    }
+
+    
+    .tienda-card {
+        width: 14rem;
+    }
+
+    .tienda-titulos-row h3 {
+        font-size: 5vmax;
+       
+    }
+    
+}
+
