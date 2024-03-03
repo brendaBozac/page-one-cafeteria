@@ -352,6 +352,7 @@ footer {
     font-size: 1.5em;
 }
 
+
 .p-footer {
     color: rgb(184, 152, 109);
     font-family: "Oswald", sans-serif;
@@ -362,12 +363,17 @@ footer {
     margin-top: 3rem;
 }
 
+
+
 .icon-redes {
     font-size: 1.2em;
     color: rgb(184, 152, 109);
     padding-right: 1.3em;
 }
 
+.icon-redes:hover {
+    color: #DC3545;
+}
 
 /* --------------------      PAGINA   CONOCENOS . HTML   ------------------------------ */
 /* --------------------      PAGINA   CONOCENOS . HTML   ------------------------------ */
