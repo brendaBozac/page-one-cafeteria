@@ -588,6 +588,73 @@ footer {
 
 
 
+/* --------------------      PAGINA   SERVICIOS . HTML   ------------------------------ */
+/* --------------------      PAGINA   SERVICIOS . HTML   ------------------------------ */
+/* --------------------      PAGINA   SERVICIOS . HTML   ------------------------------ */
+
+
+/*  section  SERVICIOS     ----------  section - bloque SERVICIOS .HTML */
+/* -section SERVICIOS */
+
+.borde-portada{
+    border-top: solid 50px #3a1137;
+    margin-top: 1rem;
+}
+
+.portada {
+    padding: 1.5rem auto;
+}
+
+.portada i {
+    font-size: 4.5rem;
+    color: #3a1137;
+}
+
+
+.portada h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+}
+
+/*  ACCORDION SERVICIOS */
+
+.fondo-accordion {
+    background: linear-gradient(to right, #10041a, #471b02, #10041a);
+    padding: 6rem 2rem;
+    margin-top: 2rem;
+}
+
+.accordion-header {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.servicios-h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 6vmax;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.767);
+}
+
+.spantitulo-h2 {
+    color: rgb(255, 166, 2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 
 MEDIAS QUERIES
@@ -687,6 +754,26 @@ MEDIAS QUERIES
        
     }
     
+     /* servicios portada */   
+    .borde-portada{
+        border-top: solid 40px #3a1137;
+    }
+
+    .portada {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .portada i {
+        font-size: 3.5rem;
+        color: #3a1137;
+    }
+
+
+    .portada h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 1rem;
+    }
 
 }
 
@@ -798,6 +885,26 @@ MEDIAS QUERIES
     .tienda-titulos-row h3 {
         font-size: 5.5vmax;
        
+    }
+    /* servicios portada */   
+    .borde-portada{
+        border-top: solid 40px #3a1137;
+    }
+
+    .portada {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .portada i {
+        font-size: 3.5rem;
+        color: #3a1137;
+    }
+
+
+    .portada h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 1rem;
     }
     
 }
@@ -943,6 +1050,25 @@ MEDIAS QUERIES
         font-size: 5vmax;
     }
     
+      /* servicios portada */   
+      .borde-portada{
+        border-top: solid 40px #3a1137;
+    }
+
+    .portada {
+        margin-top: 0;
+        margin-bottom: 0.2rem;
+    }
+
+    .portada i {
+        font-size: 5rem;
+        color: #3a1137;
+    }
+
+    .portada h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 1.3rem;
+    }
 }
 
 /* pantalla extra sm max-width: 320px   como maximo hasta donde termina en este valor */
@@ -1069,6 +1195,26 @@ MEDIAS QUERIES
     .tienda-titulos-row h3 {
         font-size: 5vmax;
        
+    }
+
+    /* servicios portada */   
+    .borde-portada{
+        border-top: solid 40px #3a1137;
+    }
+
+    .portada {
+        margin-top: 0;
+        margin-bottom: 0.2rem;
+    }
+
+    .portada i {
+        font-size: 5rem;
+        color: #3a1137;
+    }
+
+    .portada h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 1.3rem;
     }
     
 }
