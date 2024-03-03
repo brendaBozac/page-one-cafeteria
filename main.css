@@ -586,8 +586,6 @@ footer {
 }
 
 
-
-
 /* --------------------      PAGINA   SERVICIOS . HTML   ------------------------------ */
 /* --------------------      PAGINA   SERVICIOS . HTML   ------------------------------ */
 /* --------------------      PAGINA   SERVICIOS . HTML   ------------------------------ */
@@ -640,22 +638,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 
 MEDIAS QUERIES
 MEDIAS QUERIES
@@ -684,7 +666,7 @@ MEDIAS QUERIES
             
     .imgluces {
         width: 80%;
-        
+
     }
 
     .lucesh2 {
@@ -754,6 +736,7 @@ MEDIAS QUERIES
        
     }
     
+
      /* servicios portada */   
     .borde-portada{
         border-top: solid 40px #3a1137;
@@ -774,7 +757,6 @@ MEDIAS QUERIES
         font-family: "Bebas Neue", sans-serif;
         font-size: 1rem;
     }
-
 }
 
 /* pantalla sm max-width: 767px   como maximo hasta donde termina , en este valor */
@@ -886,6 +868,7 @@ MEDIAS QUERIES
         font-size: 5.5vmax;
        
     }
+
     /* servicios portada */   
     .borde-portada{
         border-top: solid 40px #3a1137;
@@ -906,6 +889,7 @@ MEDIAS QUERIES
         font-family: "Bebas Neue", sans-serif;
         font-size: 1rem;
     }
+
     
 }
 
@@ -1075,10 +1059,7 @@ MEDIAS QUERIES
 
 @media screen and (max-width: 320px) {
     
-    /* .font-nav {
-        font-size: 1em;
-    } */
-
+    
     header h1 {
         font-size: 5vmax;
     }
@@ -1216,6 +1197,5 @@ MEDIAS QUERIES
         font-family: "Bebas Neue", sans-serif;
         font-size: 1.3rem;
     }
-    
-}
-
+ 
+} 
